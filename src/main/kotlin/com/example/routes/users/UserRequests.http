@@ -1,0 +1,35 @@
+// HTTP Requests for RenalRoutes.kt
+###
+GET http://localhost:8080/users
+Content-Type: application/json
+
+###
+GET http://localhost:8080/users/1
+Content-Type: application/json
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "email": "user@company.com",
+  "firstName": "Current",
+  "lastName": "User"
+}
+
+###
+PUT http://localhost:8080/users/1
+Content-Type: application/json
+
+{
+  "email": "user1@company.com",
+  "firstName": "Current1",
+  "lastName": "User1"
+}
+
+###
+DELETE http://localhost:8080/users/2
+Content-Type: application/json
+
+
+
